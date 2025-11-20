@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label>Full name:</label> <br>
+        <input type="text" name="fullname">
+    </form>
+    <br>
+    <form>
+        <label>Email:</label> <br>
+        <input type="email" name="email">
+    </form>
+    <br>
+    <form>
+        <label>Password:</label> <br>
+        <input type="password" name="password">
+    </form>
+    <br>
+    <form>
+        <label>Age:</label> <br>
+        <input type="number" name="age" min="18">
+    </form>
+    <br>
+    <form>
+        <label>Gender:</label> <br>
+        <input type="radio" name="gender" value="male"> Male 
+        <input type="radio" name="gender" value="female"> Female 
+    </form>
+    <br>
+    <form>
+        <label>Skills:</label> <br>
+        <input type="checkbox" name="skills"> HTML
+        <input type="checkbox" name="skills"> CSS
+        <input type="checkbox" name="skills"> JavaScript
+    </form>
+    <br>
+    <form>
+        <label>Country:</label> <br>
+        <select name="country">
+            <option value="nigeria">Nigeria</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select>
+    </form>
+    <br>
+    <form>
+        <label>Message:</label> <br>
+        <textarea name="message" rows="4" cols="50"></textarea>
+    </form>
+    <br>
+    <form>
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
