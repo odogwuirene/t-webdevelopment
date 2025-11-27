@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul style="list-style-type:none;">
+        <li><a href="index.html"><img src="images/quill.svg" alt="Quill
+             feather logo in black" width="160px" style="border:none;"></a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+
+    <h1>Create Journal</h1>
+    <form action="">
+        <label>Title</label> <br>
+        <input type="text" name="title" placeholder="enter title" required>
+        <br>
+
+        <label>Journal Type</label> <br>
+        <select name="journal-type" required>
+            <option value="reflection">Reflection</option>
+            <option value="gratitude">Gratitude</option>
+            <option value="travel">Travel</option>
+            <option value="dream">Dream</option>
+
+        </select>
+        <br>
+
+        <label>Entry</label> <br>
+        <textarea name="entry" cols="30" rows="10"></textarea>
+        <br>
+        <button type="cancel">Cancel</button> <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
